@@ -9,5 +9,6 @@
 `exact code rule`
 
 [Link](https://hillarychang.me/)
+
 ![Image](https://github.com/hillarychang/cse15l-lab-reports/blob/main/Screenshot%202023-04-08%20083104.png)
 
