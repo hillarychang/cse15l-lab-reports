@@ -1,9 +1,9 @@
 # Lab Report 1
 
 ## Command: cd
--![Image](https://github.com/hillarychang/cse15l-lab-reports/blob/main/Screenshot%202023-10-02%20125930.png)\
-This command made it change directories to the directory above the lecture1 directory.\ 
-The output is not an error, it just changed directories to the directory above the lecture1 directory.\
+-![Image](https://github.com/hillarychang/cse15l-lab-reports/blob/main/Screenshot%202023-10-02%20125930.png)  
+This command made it change directories to the directory above the lecture1 directory.    
+The output is not an error, it just changed directories to the directory above the lecture1 directory.  
 
 -![Image](https://github.com/hillarychang/cse15l-lab-reports/blob/main/Screenshot%202023-10-02-1.png)\
 This command changed the current directory to the lecture1 directory.\ 
