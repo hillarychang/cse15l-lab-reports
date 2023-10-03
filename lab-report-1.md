@@ -17,30 +17,30 @@ The output is an error because it tried to change directories into a file, which
 
 
 ## Command: ls
-- ![Image](https://github.com/hillarychang/cse15l-lab-reports/blob/main/Screenshot%202023-10-02-3.png)  
+- ![Image](Screenshot%202023-10-02-3.png)  
 This command listed the contents of the current directory (which happens to be the messages directory).   
 The output is the contents of the messages directory.  
 
 
-- ![Image](https://github.com/hillarychang/cse15l-lab-reports/blob/main/Screenshot%202023-10-02-5.png)  
+- ![Image](Screenshot%202023-10-02-5.png)  
 This command listed the contents of the given directory, the messages directory.  
 The output is the contents of the directory given (the messages directory).  
 
 
-- ![Image](https://github.com/hillarychang/cse15l-lab-reports/blob/main/Screenshot%202023-10-02-6.png)  
+- ![Image](Screenshot%202023-10-02-6.png)  
 This command listed the name of the given file. Since the command is supposed to list the contents of a directory, when it was given a file it listed the filename.  
 The output is the name of the file.  
 
 
 ## Command: cat
-- ![Image](https://github.com/hillarychang/cse15l-lab-reports/blob/main/Screenshot%202023-10-02%20134222.png)  
+- ![Image](Screenshot%202023-10-02%20134222.png)  
 This command waited for input, then displayed the input back into the terminal (until I did control+C to quit).  
 The output is not an error, it merely takes input an outputs it in the terminal.  
 
-- ![Image](https://github.com/hillarychang/cse15l-lab-reports/blob/main/Screenshot%202023-10-02-8131654.png)  
+- ![Image](Screenshot%202023-10-02-8131654.png)  
 This command printed an error message, which states the given argument is a directory (when it should be a file).  
 The output is an error, as it states messages is a directry. This is because the argument should be a file, not a directory.
 
-- ![Image](https://github.com/hillarychang/cse15l-lab-reports/blob/main/Screenshot%202023-10-02-7131628.png)  
+- ![Image](Screenshot%202023-10-02-7131628.png)  
 This command printed the contents in the given file.  
 The output is not an error, as the argument given was a file, so it outputted the contents of the given file.
