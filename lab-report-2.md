@@ -1,15 +1,15 @@
 # Lab Report 2
 
-## Command: cd
+## Part 1
 - ![Image](pic1.png)  
-Which methods in your code are called?
-What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-By values, we mean specific Strings, ints, URIs, and so on. "abc" is a value, 456 is a value, new URI("http://...") is a value, and so on.)
+The handleRequest method in my code is called.
+The relevant argument to this method is url. The value of url is https://0-0-0-0-4000-k22i7kl396r3htbjuo54holukg.us.edusercontent.com/add-message?s=anotherone
+The values of the fields num, parameters[0], parameters[1], and strings1 change and become 1, s, anotherone, [anotherone] from through this specific request.
+
 - ![Image](pic2.png)  
-Which methods in your code are called?
-What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-By values, we mean specific Strings, ints, URIs, and so on. "abc" is a value, 456 is a value, new URI("http://...") is a value, and so on.)
+Similar to the above picture, the handleRequest method in my code is called.
+The relevant argument to this method is url. The value of url is https://0-0-0-0-4000-k22i7kl396r3htbjuo54holukg.us.edusercontent.com/add-message?s=hianother
+The values of the fields num, parameters[0], parameters[1], and strings1 change and become 2, s, hianother, [anotherone, hianother] from through this specific request.
+
 - ![Image](stringserver.png)  
 
