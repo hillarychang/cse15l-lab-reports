@@ -13,3 +13,8 @@ The values of the fields num, parameters[0], parameters[1], and strings1 change 
 
 - ![Image](stringserver.png)  
 
+## Part 2
+
+
+## Part 3
+This week I learned a lot more about paths in general and servers. I would always see the ssh command being used but I never knew what it was used for. Therefore, I'm very glad I learned that ssh allows you to run commands on another computer.
