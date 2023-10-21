@@ -21,17 +21,17 @@ The output is an error because it tried to change directories into a file, which
 ## Command: ls
 - ![Image](Screenshot%202023-10-02-3.png)  
 This command listed the contents of the current directory (which happens to be the messages directory).   
-The output is the contents of the messages directory.  
+The output is the contents of the messages directory. This output is not an error. 
 
 
 - ![Image](Screenshot%202023-10-02-5.png)  
 This command listed the contents of the given directory, the messages directory.  
-The output is the contents of the directory given (the messages directory).  
+The output is the contents of the directory given (the messages directory). This output is not an error. 
 
 
 - ![Image](Screenshot%202023-10-02-6.png)  
 This command listed the name of the given file. Since the command is supposed to list the contents of a directory, when it was given a file it listed the filename.  
-The output is the name of the file.  
+The output is the name of the file. This output is not an error. 
 
 
 ## Command: cat
