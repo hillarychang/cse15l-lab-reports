@@ -3,7 +3,9 @@
 ## Command: cd
 - ![Image](Screenshot%202023-10-02%20125930.png)  
 This command made it change directories to the directory above the lecture1 directory.    
-The output is not an error, it just changed directories to the directory above the lecture1 directory.  
+The output is not an error, it just changed directories to the directory above the lecture1 directory.
+The directory above is the home directory. If I did cd with no arguments on the root directory, it takes me to the home directory.
+This is because the home directory serves as the main directory for a user.
 
 
 - ![Image](Screenshot%202023-10-02-1.png)  
