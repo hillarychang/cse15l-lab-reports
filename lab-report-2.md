@@ -15,6 +15,7 @@ The values of the fields num, parameters[0], parameters[1], and strings1 change 
 
 ## Part 2
 The private key is located at C:\Users\hilla\.ssh\id_rsa
+
 The public key is located at C:\Users\hilla\.ssh\id_rsa.pub
 - ![Image](login_ssh.png)  
 
