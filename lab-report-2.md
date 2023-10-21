@@ -14,8 +14,7 @@ The values of the fields num, parameters[0], parameters[1], and strings1 change 
 - ![Image](stringserver.png)  
 
 ## Part 2
-- ![Image](keys.png)  
-- ![Image](publickey.png)  
+- ![Image]()  
 
 
 ## Part 3
