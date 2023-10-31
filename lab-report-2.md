@@ -15,9 +15,9 @@ The values of the fields ```num```, ```parameters[0]```, ```parameters[1]```, an
 
 ## Part 2
 The private key is located at C:\Users\hilla\.ssh\id_rsa
-- ![Image](screenshot1.png)  
-The public key is located at C:\Users\hilla\.ssh\id_rsa.pub
 - ![Image](screenshot2.png)  
+The public key is located at C:\Users\hilla\.ssh\id_rsa.pub
+- ![Image](screenshot-pub.png)  
 
 - ![Image](login_ssh.png)  
 
