@@ -9,7 +9,7 @@ The values of the fields num, parameters[0], parameters[1], and strings1 change 
 - ![Image](pic2.png)  
 Similar to the above picture, the handleRequest method in my code is called.
 The relevant argument to this method is url. The value of url is https://0-0-0-0-4000-k22i7kl396r3htbjuo54holukg.us.edusercontent.com/add-message?s=hianother
-The values of the fields ```num```, ```parameters[0]```, ```parameters[1]```, and ```strings1``` change and become 2, s, hianother, [anotherone, hianother] from through this specific request.
+The values of the fields ```num```, ```parameters[0]```, ```parameters[1]```, and ```strings1``` change and become 2, ```s```, ```hianother```, ```[anotherone, hianother]``` from through this specific request.
 
 - ![Image](stringserver.png)  
 
