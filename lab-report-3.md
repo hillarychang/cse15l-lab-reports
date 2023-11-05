@@ -69,21 +69,18 @@ This command searches for all fiels with a .pdf extension within the ./technical
 This command searches for files within the ./technical directory that are smaller than 1 kilobyte (1024 bytes).
 - ![Image](kilo.png)
 
-```find ./technical -type f -name "*.pdf"```
-This command searches for files within the ./technical directory that are larger than 1 megabyte but smaller than 10 megabytes.
-- ![Image](pdf.png)
+```find ./technical -type f -size 0```
+This command searches for empty files (files with a size of 0 bytes) within the ./technical directory.
+- ![Image](zero.png)
 
 # Using -mtime Option:
+```find ./technical -type f -mtime +5 -mtime -10```
+This command searches for empty files (files with a size of 0 bytes) within the ./technical directory.
+- ![Image](5and10.png)
 
-The bug I chose from lab 4 is the bug in the following function.
-
-```
-static void reverseInPlace(int[] arr) {
-  for(int i = 0; i < arr.length; i += 1) {
-    arr[i] = arr[arr.length - i - 1];
-  }
-}
-```
+```find ./technical -type f -mtime -1```
+This command searches for files within the ./technical directory that were modified within the past day
+- ![Image](1day.png)
 
 ## Sources
 I primarily found examples for the find command from the following sources:
