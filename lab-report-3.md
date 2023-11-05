@@ -16,6 +16,10 @@ A failure-inducing input for the buggy program, as a JUnit test and any associat
 An input that doesn’t induce a failure, as a JUnit test and any associated code ```int[] inputArray = {3, 3, 3, 3, 3}; ```
 
 The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above) 
+- ![Image](fail.png)  
+
+- ![Image](success.png)  
+
 
 The bug, as the before-and-after code change required to fix it 
 
