@@ -61,7 +61,7 @@ This command searches for a directory named 911report within the ./technical dir
 - ![Image](911report.png)
 
 ```find ./technical -type f -name "*.pdf"```
-This command searches for all fiels with a .pdf extension within the ./technical directory.
+This command searches for all files with a .pdf extension within the ./technical directory.
 - ![Image](pdf.png)
 
 # Using -size Option:
@@ -75,7 +75,7 @@ This command searches for empty files (files with a size of 0 bytes) within the 
 
 # Using -mtime Option:
 ```find ./technical -type f -mtime +5 -mtime -10```
-This command searches for empty files (files with a size of 0 bytes) within the ./technical directory.
+This command searches for files within the ./technical directory that were modified between 5 and 10 days ago.
 - ![Image](5and10.png)
 
 ```find ./technical -type f -mtime -1```
