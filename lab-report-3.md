@@ -38,5 +38,4 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
-Briefly describe why the fix addresses the issue.
 The fix I made was I changed the for loop so that it wasn’t iterating through the entire for loop. Because it was looping through the entire loop, the reversed elements were getting overridden and un-reversing it.
