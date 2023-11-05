@@ -61,10 +61,17 @@ This command searches for a directory named 911report within the ./technical dir
 - ![Image](911report.png)
 
 ```find ./technical -type f -name "*.pdf"```
-This command searches for all directories named 911report within the ./technical directory.
+This command searches for all fiels with a .pdf extension within the ./technical directory.
 - ![Image](pdf.png)
 
 # Using -size Option:
+```find ./technical -type f -size -1024c```
+This command searches for files within the ./technical directory that are smaller than 1 kilobyte (1024 bytes).
+- ![Image](kilo.png)
+
+```find ./technical -type f -name "*.pdf"```
+This command searches for files within the ./technical directory that are larger than 1 megabyte but smaller than 10 megabytes.
+- ![Image](pdf.png)
 
 # Using -mtime Option:
 
