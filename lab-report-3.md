@@ -57,7 +57,7 @@ This command searches for all directories within the ./technical directory.
 
 # Using -name Option:
 ```find ./technical -type f -name "*911report*"```
-This command searches for all directories within the ./technical directory.
+This command searches for a directory named 911report within the ./technical directory.
 - ![Image](911report.png)
 
 ```find ./technical -type f -name "*.pdf"```
