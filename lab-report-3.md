@@ -56,13 +56,13 @@ This command searches for all directories within the ./technical directory.
 - ![Image](directory.png)
 
 # Using -name Option:
-```find ./technical -type f -name "*.txt"```
+```find ./technical -type f -name "*911report*"```
 This command searches for all directories within the ./technical directory.
 - ![Image](911report.png)
 
-```find ./technical -type f -name "*911report*"```
+```find ./technical -type f -name "*.pdf"```
 This command searches for all directories named 911report within the ./technical directory.
-- ![Image](directory.png)
+- ![Image](pdf.png)
 
 # Using -size Option:
 
