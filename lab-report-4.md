@@ -27,9 +27,11 @@ I used 5 up arrows to run ```vim ListExamples.java```. After I opened ListExampl
 Run the tests, demonstrating that they now succeed
 Keys pressed: ```<up>``` ```<up>``````./test.sh```
 - ![Image](fourth.png)
-I used 2 up arrows to run ```vim ListExamples.java```.
+I used 2 up arrows to run ```./test.sh```.
 
 ## Step 8
 Commit and push the resulting change to your Github account (you can pick any commit message!)
 - ![Image](fifth.png)
+Keys pressed: ```<up>``` ```<up>``` ```<up>``` ```<up>``` ```<up>``` ```vim ListExamples.java```
+```i``` ```del``` ```2``` ```esc``` ```:wq``` ```Enter``` 
 I used 13 up arrows to run ```git add .```. Then, to commit, I used _____ to run ___git commit -m "add". I used 11 up arrows to accidentally run the wrong command to push: git push origin . I used 10 up arrows to run the correct command to push: git push origin
