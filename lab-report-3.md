@@ -78,10 +78,10 @@ The fix I made was I changed the for loop so that it wasn’t iterating through 
 
 
 
-## Part 2 - Researching Commands: find
+## Part 2 - Researching Commands: ```find```
 # Using -type Option:
 ```find ./technical/biomed -type f -name "*.txt"```
-This command searches for all directories within the ./technical directory within the ./technical/biomed directory.
+This command searches for all files with names ending in ".txt" in the ./technical/biomed directory and its subdirectories.
 - ![Image](find-example.png)
 
 ```find ./technical -type d```
