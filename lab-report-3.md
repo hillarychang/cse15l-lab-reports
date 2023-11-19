@@ -74,7 +74,9 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
-The fix I made was I changed the for loop so that it wasn’t iterating through the entire for loop. Because it was looping through the entire loop, the reversed elements were getting overridden and un-reversing it.
+The fix I made was I changed the for loop so that it wasn’t iterating through the entire for loop. Because it was looping through the entire loop, the reversed elements were getting overridden and un-reversing it. This is because the code before the fix tries to reverse the array in place by assigning each element at index i with the corresponding element from the end of the array (the index at arr.length - i - 1). This is incorrect because it ends up overwriting elements before they have been properly swapped. I fixed this by using a temporary variable (temp) to store the value of the element at index i before it is overwritten. Also, I changed the loop so that it only iterates up to half of the array (length / 2) since swapping elements beyond half the length would revert the array back to its original order.
+
+
 
 ## Part 2 - Researching Commands: find
 # Using -type Option:
