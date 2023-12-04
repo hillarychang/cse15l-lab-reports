@@ -23,9 +23,10 @@ The new bug is introduced in the MainClass.java file. The for loop that prints c
 
 
 Setup Information:
+
 File & Directory Structure:
-ArrayExamples.java
-project.sh
+- ArrayExamples.java
+- project.sh
 
 ArrayExamples.java
 ```
