@@ -19,7 +19,7 @@ Terminal Output after Running the Command:
 After adding the print statement and running the ```./project.sh 1 2 3 4 5 > output.txt 2>&1``` command, the command ran the script and stored the output and any error messages in a file called output.txt
 
 Bug Description:
-The new bug is introduced in the MainClass.java file. The for loop that prints command-line arguments incorrectly uses args[i + 1] for indexing, leading to an ArrayIndexOutOfBoundsException.
+The new bug is introduced in the MainClass.java file. The for loop that prints command-line arguments incorrectly, as it uses args[i + 1] for indexing, leading to an ArrayIndexOutOfBoundsException.
 
 
 Setup Information:
@@ -28,7 +28,7 @@ File & Directory Structure:
 - ArrayExamples.java
 - project.sh
 
-ArrayExamples.java
+Before fix: ArrayExamples.java
 ```
 public class ArrayExamples {
     public static void main(String[] args) {
@@ -50,7 +50,9 @@ Command Line to Trigger the Bug:
 ```./project.sh 1 2 3 4 5```
 
 Description of Fix:
-To fix the bug, modify the MainClass.java file
+To fix the bug, modify the MainClass.java file, specifically changing args[i + 1] to args[i] inside the loop. This correction ensures that the student accesses each element in the args array properly, as array indices start from 0, so the student shouldn't be adding 1 to i
+
+After fix
 ```
 public class ArrayExamples {
     public static void main(String[] args) {
@@ -61,6 +63,13 @@ public class ArrayExamples {
     }
 }
 ```
+
+project.sh
+```
+javac ArrayExamples.java
+java -cp . ArrayExamples "$@"
+```
+
 This modification ensures correct indexing of command-line arguments, avoiding the ArrayIndexOutOfBoundsException
 
 
