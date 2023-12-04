@@ -25,6 +25,7 @@ MainClass.java
 project.sh
 
 ArrayExamples.java
+```
 public class ArrayExamples {
     static void reverseInPlace(int[] arr) {
         for (int i = 0; i < arr.length; i += 1) {
@@ -32,6 +33,7 @@ public class ArrayExamples {
         }
     }
 }
+```
 
 project.sh
 javac ArrayExamples.java MainClass.java
