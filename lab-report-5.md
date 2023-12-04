@@ -30,6 +30,7 @@ File & Directory Structure:
 
 Before fix: 
 ```ArrayExamples.java```
+
 ```
 public class ArrayExamples {
     public static void main(String[] args) {
@@ -40,8 +41,10 @@ public class ArrayExamples {
     }
 }
 ```
+
 Before fix: 
 ```project.sh```
+
 ```
 javac ArrayExamples.java
 java -cp . ArrayExamples "$@"
@@ -55,6 +58,7 @@ To fix the bug, modify the MainClass.java file, specifically changing args[i + 1
 
 After fix
 ```ArrayExamples.java```
+
 ```
 public class ArrayExamples {
     public static void main(String[] args) {
@@ -67,6 +71,7 @@ public class ArrayExamples {
 ```
 After fix
 ```project.sh```
+
 ```
 javac ArrayExamples.java
 java -cp . ArrayExamples "$@"
