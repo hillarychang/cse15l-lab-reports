@@ -40,7 +40,7 @@ public class ArrayExamples {
     }
 }
 ```
-
+Before fix: 
 ```project.sh```
 ```
 javac ArrayExamples.java
@@ -65,7 +65,7 @@ public class ArrayExamples {
     }
 }
 ```
-
+After fix
 ```project.sh```
 ```
 javac ArrayExamples.java
