@@ -28,7 +28,8 @@ File & Directory Structure:
 - ArrayExamples.java
 - project.sh
 
-Before fix: ArrayExamples.java
+Before fix: 
+```ArrayExamples.java```
 ```
 public class ArrayExamples {
     public static void main(String[] args) {
@@ -40,7 +41,7 @@ public class ArrayExamples {
 }
 ```
 
-project.sh
+```project.sh```
 ```
 javac ArrayExamples.java
 java -cp . ArrayExamples "$@"
@@ -53,6 +54,7 @@ Description of Fix:
 To fix the bug, modify the MainClass.java file, specifically changing args[i + 1] to args[i] inside the loop. This correction ensures that the student accesses each element in the args array properly, as array indices start from 0, so the student shouldn't be adding 1 to i
 
 After fix
+```ArrayExamples.java```
 ```
 public class ArrayExamples {
     public static void main(String[] args) {
@@ -64,7 +66,7 @@ public class ArrayExamples {
 }
 ```
 
-project.sh
+```project.sh```
 ```
 javac ArrayExamples.java
 java -cp . ArrayExamples "$@"
