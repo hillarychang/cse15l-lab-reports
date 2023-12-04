@@ -76,3 +76,6 @@ This modification ensures correct indexing of command-line arguments, avoiding t
 
 
 ## Part 2
+I thought learning how to use the gdb debugger was a very cool part of my lab experience in the second half of this quarter, as it was something I didn’t know before. I also thought building the program similar to GradeScope was very cool, as I learned how to automate scripts to check the correctness of students' code.
+
+
